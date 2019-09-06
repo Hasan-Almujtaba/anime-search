@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Anime Search</title>
+
+	<!-- Google Font -->
+	<link href="https://fonts.googleapis.com/css?family=Gayathri&display=swap" rel="stylesheet">
+
+	<!-- Font Awesome -->
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="bg-light">
+
+	<div class="container">
+
+		<!-- Title -->
+		<h1 class="text-center mt-5">Anime Search</h1>
+
+		<!-- Search input -->
+		<div class="row">
+			<div class="input-group mb-3 mx-auto w-75">
+				<input type="text" class="form-control" placeholder="Search Anime" id="search-input">
+				<div class="input-group-append">
+					<button class="btn btn-primary" type="button" id="search-button">
+						<i class="fas fa-search"></i> Search
+					</button>
+				</div>
+			</div>
+		</div>
+
+		<!-- Loading spinner -->
+		<div class="row d-none" id="spinner">
+
+			<div class="spinner-border text-primary mx-auto" role="status">
+				<span class="sr-only">Loading...</span>
+			</div>
+
+		</div>
+
+		<!-- Anime Search Result -->
+		<div class="row" id="anime-list">
+
+
+		</div>
+
+		<div class="row mt-5">
+			<div class="col">
+				<p class="text-center text-muted">Made by <a href="https://github.com/Hasan-Almujtaba">Hasan Al
+						Mujtaba</a> </p>
+			</div>
+		</div>
+	</div>
+
+	<script src="js/jquery.js"></script>
+	<script src="bootstrap/js/bootstrap.bundle.js"></script>
+	<script src="js/script.js"></script>
+
+</body>
+
+</html>
